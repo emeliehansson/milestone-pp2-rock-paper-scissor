@@ -3,7 +3,24 @@ body {
     font-family: Trispace, sans-serif;
 }
 
+#header {
+    text-align: center;
+    margin: 4%;
+    color: #D48E61;
+    font-size: 280%;
+}
+
+#rules {
+    float: right;
+    text-align: center;
+    margin: 0% 10% 10% 10%;
+}
+
 #rules > p {
     display: inline;
-    width: 50%;
+}
+
+.game-area {
+    text-align: center;
+    
 }
