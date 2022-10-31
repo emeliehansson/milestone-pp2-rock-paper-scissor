@@ -1,6 +1,7 @@
 body {
     background: #fff;
     font-family: Trispace, sans-serif;
+    padding-bottom: 100px;
 }
 
 #header {
@@ -10,17 +11,21 @@ body {
     font-size: 280%;
 }
 
-#rules {
-    float: right;
-    text-align: center;
-    margin: 0% 10% 10% 10%;
-}
-
-#rules > p {
-    display: inline;
-}
-
 .game-area {
     text-align: center;
-    
+    font-weight: bold;
+}
+
+.scores {
+    text-align: center;
+    margin: 5% 0% 2% 0%;
+}
+
+.rules > h2 {
+    text-align: center;
+    margin-top: 10%;
+
+}
+.rules > p {
+    text-align: center;
 }

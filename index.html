@@ -10,44 +10,40 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trispace:wght@100&display=swap');</style>
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 </head>
 <body>
     <h1 id="header">Rock, Paper, Scissor, Lizard, Spock</h1>
-    <div id="rules">
-        <h2>Rules:</h2>
-        <p>Scissors cuts paper |</p>
-        <p>Paper covers rock |</p>
-        <p>Rock crushes lizard |</p>
-        <p>Lizard poisons Spock |</p>
-        <p>Spock smashes scissors |</p>
-        <br>
-        <br>
-        <p>Scissors decapitates lizard |</p>
-        <p>Lizard eats paper |</p>
-        <p>Paper disproves Spock |</p>
-        <p>Spock vaporizes rock |</p>
-        <p>Rock crushes scissors |</p>
-    </div>
-    
+
     <!--rock, paper, scissor, lizard, spock buttons-->
 
     <div class="game-area">
         <h2>Pick your weapon:</h2>
-        <button data-type="rock">Rock</button>
-        <button data-type="paper">Paper</button>
-        <button data-type="scissor">Scissor</button>
-        <button data-type="lizard">Lizard</button>
-        <button data-type="spock">Spock</button>
+        <button class="rpsls-button"><img src="assets/images/Rock.png" alt="Rock hand gesture"></button>
+        <button class="rpsls-button"><img src="assets/images/Paper.png" alt="Paper hand gesture"></button>
+        <button class="rpsls-button"><img src="assets/images/Scissor.png" alt="Scissor hand gesture"></button>
+        <button class="rpsls-button"><img src="assets/images/Lizard.png" alt="Lizard hand gesture"></button>
+        <button class="rpsls-button"><img src="assets/images/Spock.png" alt="Spock hand gesture"></button>
     </div>
+    
+        <!--score display-->
+        <div class="scores">
+            <label for="user-score">Your score:</label>
+            <span id="user-score">0</span>
+            <br>
+            <label for="computer-score">Computer score:</label>
+            <span id="computer-score">0</span>
+        </div>
+    
 
-    <!--score display-->
-    <div class="scores">
-        <label for="user-score">Your score:</label>
-        <span id="user-score">0</span>
-        <label for="computer-score">Computer score:</label>
-        <span id="computer-score">0</span>
+    <!--rules with picture and text explanation-->
+
+    <div class="rules">
+          <h2>Rules:</h2>
+            <p>Scissors cuts paper | Paper covers rock | Rock crushes lizard | Lizard poisons Spock | Spock smashes scissors</p>
+            <p>Scissors decapitates lizard | Lizard eats paper | Paper disproves Spock | Spock vaporizes rock | Rock crushes scissors</p>
     </div>
-
 
     
     <script src="assets/js/script.js"></script>
