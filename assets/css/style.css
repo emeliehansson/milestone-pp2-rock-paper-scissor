@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background: #FAF7FF;
     font-family: Trispace, sans-serif;
@@ -37,21 +43,44 @@ body > h2 {
 
 .score-area {
     text-align: center;
-    margin: 5%;
     font-size: 180%;
     color: #8599C1;
+    margin-top: 10%;
+    padding: 5%;
 }
+
 .scores {
     display: block;
 }
 
 .rules {
     text-align: center;
-    margin-top: 10%;
     color: #324A51;
-    font-size: 110%;
+    font-size: 100%;
+    margin-top: 5%;
 }
 
 .rules > p {
     font-size: 115%;
+    margin: 2%;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+    list-style: none;
+}
+
+.social-networks i {
+    color: #324A51;
+    font-size: 160%;
+    margin: 1%;
+    padding: 3% 0% 2% 0%;
 }
