@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--font awesome-->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trispace:wght@100&display=swap');</style>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1 id="header">Rock, Paper, Scissor, Lizard, Spock</h1>
+    <div id="rules">
+        <h3>Rules:</h3>
+        <p>Scissors cuts paper |</p>
+        <p>Paper covers rock |</p>
+        <p>Rock crushes lizard |</p>
+        <p>Lizard poisons Spock |</p>
+        <p>Spock smashes scissors |</p>
+        <p>Scissors decapitates lizard |</p>
+        <p>Lizard eats paper |</p>
+        <p>Paper disproves Spock |</p>
+        <p>Spock vaporizes rock |</p>
+        <p>Rock crushes scissors |</p>
+    </div>
+
+    
+        <h2>Pick your weapon:</h2>
+
+        <!--rock, paper, scissor, lizard, spock buttons-->
+
+    <div class="game-area">
+        <button data-type="rock">Rock</button>
+        <button data-type="paper">Paper</button>
+        <button data-type="scissor">Scissor</button>
+        <button data-type="lizard">Lizard</button>
+        <button data-type="spock">Spock</button>
+    </div>
+
+    <!--score display-->
+    <div class="scores">
+        <label for="user-score">Your score:</label>
+        <span id="user-score">0</span>
+        <label for="computer-score">Computer score:</label>
+        <span id="computer-score">0</span>
+    </div>
+
+
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

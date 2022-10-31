@@ -1,0 +1,9 @@
+body {
+    background: #fff;
+    font-family: Trispace, sans-serif;
+}
+
+#rules > p {
+    display: inline;
+    width: 50%;
+}
