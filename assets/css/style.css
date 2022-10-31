@@ -1,31 +1,57 @@
 body {
-    background: #fff;
+    background: #FAF7FF;
     font-family: Trispace, sans-serif;
     padding-bottom: 100px;
+}
+
+body > h2 {
+    text-align: center;
+    font-size: 200%;
+    color: #8599C1;
 }
 
 #header {
     text-align: center;
     margin: 4%;
-    color: #D48E61;
+    color: #6694A0;
     font-size: 280%;
 }
 
-.game-area {
+#game-area {
     text-align: center;
-    font-weight: bold;
 }
 
+.rpsls-button {
+    border-radius: 50%;
+    border: 0px;
+    width: 180px;
+    height: 180px;
+    background-color: #fdfeff;
+    margin: 2%;
+}
+
+.rpsls-button:hover {
+    background-color: #9BCAD7;
+    background: #9BCAD7;
+}
+
+.score-area {
+    text-align: center;
+    margin: 5%;
+    font-size: 180%;
+    color: #8599C1;
+}
 .scores {
-    text-align: center;
-    margin: 5% 0% 2% 0%;
+    display: block;
 }
 
-.rules > h2 {
+.rules {
     text-align: center;
     margin-top: 10%;
-
+    color: #324A51;
+    font-size: 110%;
 }
+
 .rules > p {
-    text-align: center;
+    font-size: 115%;
 }
