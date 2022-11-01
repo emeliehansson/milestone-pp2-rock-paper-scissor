@@ -89,5 +89,47 @@ function displayResult(userChoice, computerChoice) {
         updateScore();
     } else if (userChoice === rock && computerChoice === scissors) {
         result.innerHTML = 'Rock crushes scissors, you win!! ⭐'
+        userScore++;
+        updateScore();
+    } else if (userChoice === paper && computerChoice === scissors) {
+        result.innerHTML = 'Oh no! Scissors cuts paper, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === rock && computerChoice === paper) {
+        result.innerHTML = 'Oh no! Paper covers rock, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === lizard && computerChoice === rock) {
+        result.innerHTML = 'Oh no! Rock crushes lizard, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === spock && computerChoice === lizard) {
+        result.innerHTML = 'Oh no! Lizard poisons Spock, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === scissors && computerChoice === spock) {
+        result.innerHTML = 'Oh no! Spock smashes scissors, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === lizard && computerChoice === scissors) {
+        result.innerHTML = 'Oh no! Scissors decapitates lizard, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === paper && computerChoice === lizard) {
+        result.innerHTML = 'Oh no! Lizard eats paper, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === spock && computerChoice === paper) {
+        result.innerHTML = 'Oh no! Paper disproves Spock, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else if (userChoice === rock && computerChoice === spock) {
+        result.innerHTML = 'Oh no! Spock vaporizes rock, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
+    } else (userChoice === scissors && computerChoice === rock) {
+        result.innerHTML = 'Oh no! Rock crushes scissors, you lose.. 😕'; 
+        computerScore++;
+        updateScore();
     }
 }
