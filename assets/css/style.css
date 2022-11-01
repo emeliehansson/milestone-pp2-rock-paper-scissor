@@ -116,6 +116,10 @@ footer {
     font-size: 150%;
 }
 
+h2 {
+    font-size: 70%;
+}
+
 .weapon {
     font-size: 120%;
     padding: 5%;
@@ -186,15 +190,3 @@ img {
     }
     
     }
-
-@media screen and (max-width: 1280px) {
-    button {
-        width: 100px;
-        height: 100px;
-        display: inline;
-    }
-
-    img {
-        width: 90px;
-    }
-}
