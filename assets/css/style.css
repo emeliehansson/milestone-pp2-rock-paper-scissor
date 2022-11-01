@@ -25,18 +25,19 @@ body > h2 {
 
 #game-area {
     text-align: center;
+    margin: 5%;
 }
 
-.rpsls-button {
+.rpsls-btn {
     border-radius: 50%;
     border: 0px;
     width: 180px;
     height: 180px;
     background-color: #fdfeff;
-    margin: 2%;
+    margin: 0% 2% 0% 2%;
 }
 
-.rpsls-button:hover {
+.rpsls-btn:hover {
     background-color: #9BCAD7;
     background: #9BCAD7;
 }
@@ -45,24 +46,23 @@ body > h2 {
     text-align: center;
     font-size: 180%;
     color: #8599C1;
-    margin-top: 10%;
-    padding: 5%;
+    padding: 0% 0% 2% 0%;
 }
 
 .scores {
     display: block;
 }
 
-.rules {
+.instructions {
     text-align: center;
     color: #324A51;
     font-size: 100%;
     margin-top: 5%;
 }
 
-.rules > p {
+.instructions > p {
     font-size: 115%;
-    margin: 2%;
+    margin: 1%;
 }
 
 footer {

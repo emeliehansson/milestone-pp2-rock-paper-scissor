@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper, Schissor, Lizard, Spock</title>
 
     <!--font awesome and google fonts-->
     <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trispace:wght@100&display=swap');</style>
@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
     <h1 id="header">Rock, Paper, Scissor, Lizard, Spock</h1>
@@ -22,11 +23,11 @@
     <h2>Pick your weapon:</h2>
 
     <div id="game-area">
-        <button class="rpsls-button"><img src="assets/images/Rock.png" alt="Rock hand gesture"></button>
-        <button class="rpsls-button"><img src="assets/images/Paper.png" alt="Paper hand gesture"></button>
-        <button class="rpsls-button"><img src="assets/images/Scissor.png" alt="Scissor hand gesture"></button>
-        <button class="rpsls-button"><img src="assets/images/Lizard.png" alt="Lizard hand gesture"></button>
-        <button class="rpsls-button"><img src="assets/images/Spock.png" alt="Spock hand gesture"></button>
+        <button data-type= "rock" class="rpsls-btn"><img src="assets/images/Rock.png" alt="Rock"></button>
+        <button data-type= "paper" class="rpsls-btn"><img src="assets/images/Paper.png" alt="Paper"></button>
+        <button data-type= "scissor" class="rpsls-btn"><img src="assets/images/Scissor.png" alt="Scissor"></button>
+        <button data-type= "lizard" class="rpsls-btn"><img src="assets/images/Lizard.png" alt="Lizard"></button>
+        <button data-type= "spock" class="rpsls-btn"><img src="assets/images/Spock.png" alt="Spock"></button>
     </div>
     
     <!--score display-->
@@ -37,9 +38,9 @@
         </div>
     
 
-    <!--rules with picture and text explanation-->
+    <!--instructions-->
 
-    <div class="rules">
+    <div class="instructions">
           <h2>Rules:</h2>
             <p>Scissors cuts paper | Paper covers rock | Rock crushes lizard | Lizard poisons Spock | Spock smashes scissors</p>
             <p>Scissors decapitates lizard | Lizard eats paper | Paper disproves Spock | Spock vaporizes rock | Rock crushes scissors</p>
@@ -50,7 +51,7 @@
                 <a href="https://github.com/emeliehansson" target="_blank" rel="noopener" aria-label="Visit my GitHub"><i class="fa-brands fa-github"></i></a>
             </li>
             <li>
-                <a href="https://github.com/emeliehansson" target="_blank" rel="noopener" aria-label="Visit my LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/emelie-hansson-626018138/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
             </li>
         </ul>
     </footer>
