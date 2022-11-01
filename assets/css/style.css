@@ -39,7 +39,10 @@ body > h2 {
 
 .rpsls-btn:hover {
     background-color: #9BCAD7;
-    background: #9BCAD7;
+}
+
+.rpsls-btn:focus {
+    background-color: #9BCAD7;
 }
 
 #result {
