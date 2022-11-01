@@ -53,7 +53,7 @@ h2 {
 
 .instructions {
     text-align: center;
-    color: #324A51;
+    color: #6694A0;
     font-size: 100%;
     margin-top: 5%;
 }
@@ -65,7 +65,7 @@ h2 {
 
 /* ---- buttons ---- */
 
-.rpsls-btn {
+button {
     border-radius: 50%;
     border: 0px;
     width: 180px;
@@ -74,11 +74,11 @@ h2 {
     margin: 0% 2% 0% 2%;
 }
 
-.rpsls-btn:hover {
+button:hover {
     background-color: #6694A0;
 }
 
-.rpsls-btn:focus {
+button:focus {
     background-color: #6694A0;
 }
 
@@ -98,7 +98,7 @@ footer {
 }
 
 .social-networks i {
-    color: #324A51;
+    color: #6694A0;
     font-size: 160%;
     margin: 1%;
     padding: 3% 0% 2% 0%;
