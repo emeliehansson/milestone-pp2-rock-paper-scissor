@@ -7,7 +7,7 @@
 body {
     background: #FAF7FF;
     font-family: Trispace, sans-serif;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 body > h2 {
@@ -16,7 +16,7 @@ body > h2 {
     color: #8599C1;
 }
 
-#header {
+.header {
     text-align: center;
     margin: 4%;
     color: #6694A0;
@@ -54,7 +54,7 @@ body > h2 {
 
 .score-area {
     text-align: center;
-    font-size: 180%;
+    font-size: 170%;
     color: #8599C1;
     padding: 0% 0% 2% 0%;
 }
@@ -94,3 +94,83 @@ footer {
     margin: 1%;
     padding: 3% 0% 2% 0%;
 }
+
+@media screen and (min-width: 320px) {
+
+.game-area {
+    width: 100%;
+}
+
+.header {
+    font-size: 150%;
+}
+
+.weapon {
+    font-size: 120%;
+    padding: 5%;
+}
+
+.rpsls-btn {
+    width: 70px;
+    height: 70px;
+}
+
+img {
+    width: 70px;
+}
+
+.score-area {
+    font-size: 120%;
+    padding: 2%;
+}
+
+#result-container {
+    font-size: 100%;
+}
+
+.instructions {
+    font-size: 80%;
+    margin: 2%;
+    padding: 5%;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .game-area {
+        width: 100%;
+    }
+    
+    .header {
+        font-size: 200%;
+    }
+    
+    .weapon {
+        font-size: 150%;
+        padding: 2%;
+    }
+    
+    .rpsls-btn {
+        width: 100px;
+        height: 100px;
+    }
+    
+    img {
+        width: 100px;
+    }
+    
+    .score-area {
+        font-size: 150%;
+    }
+    
+    #result-container {
+        font-size: 120%;
+    }
+    
+    .instructions {
+        font-size: 100%;
+        margin: 2%;
+    }
+    
+    }
