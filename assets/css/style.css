@@ -106,7 +106,7 @@ footer {
 
 /* ---- media queries ---- */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
 
 .game-area {
     width: 100%;
@@ -121,13 +121,14 @@ footer {
     padding: 5%;
 }
 
-.rpsls-btn {
-    width: 70px;
-    height: 70px;
+button {
+    width: 50px;
+    height: 50px;
+    margin: 2%;
 }
 
 img {
-    width: 70px;
+    width: 40px;
 }
 
 .score-area {
@@ -162,13 +163,13 @@ img {
         padding: 2%;
     }
     
-    .rpsls-btn {
-        width: 100px;
-        height: 100px;
+    button {
+        width: 90px;
+        height: 90px;
     }
-    
+
     img {
-        width: 100px;
+        width: 80px;
     }
     
     .score-area {
@@ -180,8 +181,20 @@ img {
     }
     
     .instructions {
-        font-size: 100%;
+        font-size: 80%;
         margin: 2%;
     }
     
     }
+
+@media screen and (max-width: 1280px) {
+    button {
+        width: 100px;
+        height: 100px;
+        display: inline;
+    }
+
+    img {
+        width: 90px;
+    }
+}
