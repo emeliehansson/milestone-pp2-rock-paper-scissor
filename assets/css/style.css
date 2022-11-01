@@ -13,7 +13,7 @@ body {
 body > h2 {
     text-align: center;
     font-size: 200%;
-    color: #8599C1;
+    color: #51668B; 
 }
 
 .header {
@@ -46,8 +46,8 @@ body > h2 {
 }
 
 #result-container {
-    color: #324A51;
     text-align: center;
+    color: #51668B;
     margin: 5%;
     font-size: 150%;
 }
@@ -55,7 +55,7 @@ body > h2 {
 .score-area {
     text-align: center;
     font-size: 170%;
-    color: #8599C1;
+    color: #51668B;
     padding: 0% 0% 2% 0%;
 }
 
@@ -95,7 +95,11 @@ footer {
     padding: 3% 0% 2% 0%;
 }
 
-@media screen and (min-width: 320px) {
+
+
+/* ---- media queries ---- */
+
+@media screen and (max-width: 320px) {
 
 .game-area {
     width: 100%;
@@ -136,7 +140,7 @@ img {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .game-area {
         width: 100%;
