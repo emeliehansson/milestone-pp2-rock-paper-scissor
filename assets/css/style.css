@@ -42,6 +42,10 @@ body > h2 {
     background: #9BCAD7;
 }
 
+#result {
+    color: #324A51;
+}
+
 .score-area {
     text-align: center;
     font-size: 180%;
