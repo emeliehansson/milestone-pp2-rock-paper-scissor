@@ -10,11 +10,7 @@ body {
     padding-bottom: 70px;
 }
 
-body > h2 {
-    text-align: center;
-    font-size: 200%;
-    color: #51668B; 
-}
+/* ---- header ---- */
 
 .header {
     text-align: center;
@@ -23,26 +19,18 @@ body > h2 {
     font-size: 280%;
 }
 
+/* ---- game layout ---- */
+
 #game-area {
     text-align: center;
     margin: 5%;
 }
 
-.rpsls-btn {
-    border-radius: 50%;
-    border: 0px;
-    width: 180px;
-    height: 180px;
-    background-color: #fdfeff;
-    margin: 0% 2% 0% 2%;
-}
-
-.rpsls-btn:hover {
-    background-color: #9BCAD7;
-}
-
-.rpsls-btn:focus {
-    background-color: #9BCAD7;
+h2 {
+    text-align: center;
+    margin: 4%;
+    color: #51668B;
+    font-size: 200%;
 }
 
 #result-container {
@@ -75,6 +63,27 @@ body > h2 {
     margin: 1%;
 }
 
+/* ---- buttons ---- */
+
+.rpsls-btn {
+    border-radius: 50%;
+    border: 0px;
+    width: 180px;
+    height: 180px;
+    background-color: #fdfeff;
+    margin: 0% 2% 0% 2%;
+}
+
+.rpsls-btn:hover {
+    background-color: #6694A0;
+}
+
+.rpsls-btn:focus {
+    background-color: #6694A0;
+}
+
+/* ---- footer and social media links ---- */
+
 footer {
     height: 150px;
 }
@@ -94,8 +103,6 @@ footer {
     margin: 1%;
     padding: 3% 0% 2% 0%;
 }
-
-
 
 /* ---- media queries ---- */
 
