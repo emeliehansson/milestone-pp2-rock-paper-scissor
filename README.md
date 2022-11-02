@@ -11,9 +11,11 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
   - [Existing Features](#existing-features)
   - [Features Left to Implement](#features-left-to-implement)
 - [Wireframes](#wireframes)
+- [Design](#design)
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
   - [Unfixed Bugs](#unfixed-bugs)
+  - [Contrast Checker](#contrast-checker)
 - [Deployment](#deployment)
 - [Credits](#credits)
   - [Content](#content)
@@ -93,6 +95,17 @@ The following images are from Balsamiq where I created the wireframes for what I
 
 ---
 
+<a name="design"></a>
+
+## **Design**
+
+I have chosen the colors based on how well they work together and also because I wanted to keep it simple but not have it being plain white. 
+The colors compatibility have been tester through Contract Checker (please see the testing part below).
+
+![Colors](readme-assets/Colors%20pp2.png)
+
+---
+
 <a name="testing"></a>
 
 ## **Testing**
@@ -109,6 +122,12 @@ The following images are from Balsamiq where I created the wireframes for what I
   - No errors were returned when passing through [JS Hint](https://jshint.com/).
 
 ### Unfixed Bugs
+
+### Contrast Checker
+The colors compatibility have been checked in the program Contrast Checker:
+
+![contrast](readme-assets/Contrast%20checker.png)
+![contrast](readme-assets/Contrast%20checker%202.png)
 
 ---
 
