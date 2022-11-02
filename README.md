@@ -4,7 +4,7 @@ If you've ever watched The Big Bang Theory you might have heard about Sheldon Co
 
 The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUCK! 
 
-![Am I Responsive](readme-assets/Ska%CC%88rmavbild%202022-11-01%20kl.%2019.09.31.png)
+![Am I Responsive]()
 
 ## Table of Contents
 - [Features](#features)
@@ -24,9 +24,38 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
 
 ### Existing Features
 
-- Landing Page:
+- Landing Page & Header:
 As soon as the user enters the website it's clear what the game is about. And on the bottom of the page there are instructions on how to play and what the rules are.
-I have chosen a soft pink color for my background with two different purple colors for the font and other details, such as the hover features around the buttons. 
+The colors chosen are a soft pink color for the background with two different purple colors for the font and other details, such as the hover features around the buttons. 
+The header shows the name of the game at the top of the page.
+
+
+![Header](readme-assets/Header.png)
+
+- Buttons:
+The text "Pick your weapon" gives the user an instruction to choose one of the options below: the buttons. 
+The buttons have images of the different options, from Rock to Spock.
+When the user hovers over the buttons a purple circle appears on the outer parts of the circle. When the user clicks on of the buttons the button has a focus feature that will keep the purple circle around the button until the user clicks on another button or anywhere else on the page.  
+
+
+![Buttons](readme-assets/Buttons.png)
+
+
+- Result message:
+When the user have made their choice, a message appears below the buttons. The message clearly states if the user won, lost or if it's a tie. 
+
+
+![Tie](readme-assets/Tie.png)
+![User-win](readme-assets/User%20wins.png)
+![Computer-win](readme-assets/Computer%20wins.png)
+
+![Score-area](readme-assets/Score%20area.png)
+
+
+![Instructions](readme-assets/Instructions.png)
+
+
+![Social-media](readme-assets/Social%20media.png)
 
 
 ### Features Left to Implement
