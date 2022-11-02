@@ -128,10 +128,12 @@ button {
     width: 50px;
     height: 50px;
     margin: 2%;
+    display: inline;
 }
 
 img {
     width: 40px;
+    height: 40px;
 }
 
 .score-area {
@@ -144,7 +146,7 @@ img {
 }
 
 .instructions {
-    font-size: 80%;
+    font-size: 100%;
     margin: 2%;
     padding: 5%;
 }
@@ -173,6 +175,7 @@ img {
 
     img {
         width: 80px;
+        height: 80px;
     }
     
     .score-area {
@@ -183,19 +186,13 @@ img {
         font-size: 120%;
     }
     
+    h2 {
+        font-size: 150%;
+    }
+
     .instructions {
         font-size: 80%;
         margin: 2%;
     }
     
     }
-
-@media screen and (max-width: 1440px) {
-    button {
-        border-radius: 50%;
-        border: 0px;
-        width: 170px;
-        height: 170px;
-        background-color: #fdfeff;
-    }
-}
