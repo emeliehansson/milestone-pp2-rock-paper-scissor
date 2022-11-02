@@ -7,19 +7,38 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
 ![Am I Responsive](readme-assets/Ska%CC%88rmavbild%202022-11-01%20kl.%2019.09.31.png)
 
 ## Table of Contents
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Features Left to Implement](#features-left-to-implement)
+- [Wireframes](#wireframes)
+- [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
+<a name="features"></a>
+## Features
 
+### Existing Features
 
-### Features
-#### Features Left to Implement
+### Features Left to Implement
 
-### Testing
-#### Validator Testing
-#### Unfixed Bugs
+<a name="wireframes"></a>
+## Wireframes
 
-### Deployment
-The live link can be found here: 
+<a name="testing"></a>
+## Testing
+### Validator Testing
+### Unfixed Bugs
 
-### Credits
-#### Content
-#### Media
+<a name="deployment"></a>
+## Deployment
+The live link can be found here: [Rock, Paper, Scissors, Lizard, Spock](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
+
+<a name="credits"></a>
+## Credits
+### Content
+### Media
