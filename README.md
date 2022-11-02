@@ -19,6 +19,8 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
   - [Content](#content)
   - [Media](#media)
 
+---
+
 <a name="features"></a>
 ## Features
 
@@ -41,7 +43,7 @@ When the user hovers over the buttons a purple circle appears on the outer parts
 ![Buttons](readme-assets/Buttons.png)
 
 
-- Result message:
+- Result Message:
 When the user have made their choice, a message appears below the buttons. The message clearly states if the user won, lost or if it's a tie. 
 
 
@@ -49,28 +51,47 @@ When the user have made their choice, a message appears below the buttons. The m
 ![User-win](readme-assets/User%20wins.png)
 ![Computer-win](readme-assets/Computer%20wins.png)
 
+
+- The Score Area:
+Below the result message there's a score area which clearly shows the status of how many times the user has won and how many times the computer has won.
+
+
 ![Score-area](readme-assets/Score%20area.png)
+
+
+- Instructions: 
+Below the score area there are the instructions of the game.
 
 
 ![Instructions](readme-assets/Instructions.png)
 
+- Social Media Links:
+And on the bottom of the page there are two links for Social Media, on for my Github and one for my LinkedIn.
 
 ![Social-media](readme-assets/Social%20media.png)
 
 
 ### Features Left to Implement
 
+---
+
 <a name="wireframes"></a>
 ## Wireframes
+
+---
 
 <a name="testing"></a>
 ## Testing
 ### Validator Testing
 ### Unfixed Bugs
 
+---
+
 <a name="deployment"></a>
 ## Deployment
 The live link can be found here: [Rock, Paper, Scissors, Lizard, Spock](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
+
+---
 
 <a name="credits"></a>
 ## Credits
