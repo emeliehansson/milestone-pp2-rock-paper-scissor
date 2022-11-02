@@ -73,6 +73,11 @@ button {
     margin: 0% 2% 0% 2%;
 }
 
+img {
+    width: 155px;
+    height: 155px;
+}
+
 button:hover {
     background-color: #4A4453;
 }
