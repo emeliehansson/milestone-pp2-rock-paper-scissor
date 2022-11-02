@@ -30,6 +30,7 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
 ### Existing Features
 
 - Landing Page & Header:
+
 As soon as the user enters the website it's clear what the game is about. And on the bottom of the page there are instructions on how to play and what the rules are.
 The colors chosen are a soft pink color for the background with two different purple colors for the font and other details, such as the hover features around the buttons. 
 The header shows the name of the game at the top of the page.
@@ -38,6 +39,7 @@ The header shows the name of the game at the top of the page.
 ![Header](readme-assets/Header.png)
 
 - Buttons:
+
 The text "Pick your weapon" gives the user an instruction to choose one of the options below: the buttons. The game is started by pressing one of the buttons.
 The buttons have images of the different options, from Rock to Spock.
 When the user hovers over the buttons a purple circle appears on the outer parts of the circle. When the user clicks on of the buttons the button has a focus feature that will keep the purple circle around the button until the user clicks on another button or anywhere else on the page.  
@@ -47,6 +49,7 @@ When the user hovers over the buttons a purple circle appears on the outer parts
 
 
 - Result Message:
+
 When the user have made their choice, a message appears below the buttons. The message clearly states if the user won, lost or if it's a tie. 
 
 
@@ -56,6 +59,7 @@ When the user have made their choice, a message appears below the buttons. The m
 
 
 - The Score Area:
+
 Below the result message there's a score area which clearly shows the status of how many times the user has won and how many times the computer has won.
 
 
@@ -63,12 +67,14 @@ Below the result message there's a score area which clearly shows the status of 
 
 
 - Instructions: 
+
 Below the score area there are the instructions of the game.
 
 
 ![Instructions](readme-assets/Instructions.png)
 
 - Social Media Links:
+
 And on the bottom of the page there are two links for Social Media, on for my Github and one for my LinkedIn.
 
 ![Social-media](readme-assets/Social%20media.png)
@@ -119,7 +125,7 @@ The colors compatibility have been tester through Contract Checker (please see t
   - No errors were returned then passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 
 - JavaScript
-  - No errors were returned when passing through [JS Hint](https://jshint.com/).
+  -  [JS Hint](https://jshint.com/).
 
 ### Unfixed Bugs
 
@@ -147,6 +153,15 @@ The live link can be found here: [Rock, Paper, Scissors, Lizard, Spock](https://
 ---
 
 <a name="credits"></a>
+
 ## **Credits**
+
 ### Content
+
+- The code for the social media links in the footer was borrowed from the Love Running project in the HTML & CSS module. 
+- The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The font style was found at [Google Fonts](https://fonts.google.com/).
+
 ### Media
+
+- The images for the different options was found in another RPSLS game on Github: [JLChamberlain](https://github.com/JLChamberlain/RPSLS).
