@@ -26,7 +26,7 @@ The goal here is to try to beat the computer! Hopefully you'll succeed, GOOD LUC
 
 - Landing Page:
 As soon as the user enters the website it's clear what the game is about. And on the bottom of the page there are instructions on how to play and what the rules are.
-I have chosen a soft pink color for my background with purple and green details in the font and the hover features around the buttons. 
+I have chosen a soft pink color for my background with two different purple colors for the font and other details, such as the hover features around the buttons. 
 
 
 ### Features Left to Implement

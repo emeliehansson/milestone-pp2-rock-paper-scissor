@@ -28,7 +28,6 @@ body {
 
 h2 {
     text-align: center;
-    margin: 4%;
     color: #4D4160;
     font-size: 200%;
 }
@@ -195,9 +194,8 @@ img {
     button {
         border-radius: 50%;
         border: 0px;
-        width: 180px;
-        height: 180px;
+        width: 170px;
+        height: 170px;
         background-color: #fdfeff;
-        margin: 0% 2% 0% 2%;
     }
 }
