@@ -15,7 +15,7 @@ body {
 .header {
     text-align: center;
     margin: 4%;
-    color: #6694A0;
+    color: #4A4453;
     font-size: 280%;
 }
 
@@ -29,13 +29,13 @@ body {
 h2 {
     text-align: center;
     margin: 4%;
-    color: #51668B;
+    color: #4D4160;
     font-size: 200%;
 }
 
 #result-container {
     text-align: center;
-    color: #51668B;
+    color: #4D4160;
     margin: 5%;
     font-size: 150%;
 }
@@ -43,7 +43,7 @@ h2 {
 .score-area {
     text-align: center;
     font-size: 170%;
-    color: #51668B;
+    color: #4D4160;
     padding: 0% 0% 2% 0%;
 }
 
@@ -53,7 +53,7 @@ h2 {
 
 .instructions {
     text-align: center;
-    color: #6694A0;
+    color: #4A4453;
     font-size: 100%;
     margin-top: 5%;
 }
@@ -75,11 +75,11 @@ button {
 }
 
 button:hover {
-    background-color: #6694A0;
+    background-color: #4A4453;
 }
 
 button:focus {
-    background-color: #6694A0;
+    background-color: #4A4453;
 }
 
 /* ---- footer and social media links ---- */
@@ -98,7 +98,7 @@ footer {
 }
 
 .social-networks i {
-    color: #6694A0;
+    color: #4A4453;
     font-size: 160%;
     margin: 1%;
     padding: 3% 0% 2% 0%;
