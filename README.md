@@ -153,7 +153,7 @@ The biggest challenge for this project was JavaScript. I logically knew what I h
 
 The first big struggle I encountered was to figure out how to get the computer to have a random choice, and then be able to compare it to the choice of the user. I knew I had to create a function with an if/else if statement, but I didn't know exactly how. This is where W3 Schools and Developer Mozilla were a big help, this is where I've found most of my information, as well as going back through the modules. Since this game has a lot of different choices and outcomes, it was a small challenge to get them all in place and working, but now it looks good and it's working! 
 
-
+Overall, almost every part of this project had small or big challenges that happened throughout the development. But with some research and trying a lot of different ways I finally succeeded, and I learned a lot along the way! 
 
 &nbsp;
 
